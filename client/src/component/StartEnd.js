@@ -25,9 +25,9 @@ const StartEnd = (props) => {
                 className="container-item attention"
                 style={{ display: "block" }}
               >
-                <h2>Do not forget to add candidates.</h2>
+                <h2>Add candidates.</h2>
                 <p>
-                  Go to{" "}
+                  Click{" "}
                   <Link
                     title="Add a new "
                     to="/addCandidate"
@@ -36,9 +36,8 @@ const StartEnd = (props) => {
                       textDecoration: "underline",
                     }}
                   >
-                    add candidates
+                    here!
                   </Link>{" "}
-                  page.
                 </p>
               </div>
               <div className="container-item">

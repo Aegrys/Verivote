@@ -263,7 +263,7 @@ export default class Home extends Component {
                         <input
                           className="input-home"
                           type="text"
-                          placeholder="eg. School Election"
+                          placeholder="eg. ICTSS Election"
                           {...register("electionTitle", {
                             required: true,
                           })}
@@ -275,7 +275,7 @@ export default class Home extends Component {
                         <input
                           className="input-home"
                           type="text"
-                          placeholder="eg. Lifeline Academy"
+                          placeholder="eg. ICTSS"
                           {...register("organizationTitle", {
                             required: true,
                           })}

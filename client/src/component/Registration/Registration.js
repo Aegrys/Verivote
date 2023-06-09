@@ -179,7 +179,7 @@ export default class Registration extends Component {
                       <input
                         className={"input-r"}
                         type="text"
-                        placeholder="eg. Ava"
+                        placeholder="eg. Razzaq"
                         value={this.state.voterName}
                         onChange={this.updateVoterName}
                       />{" "}
@@ -191,7 +191,7 @@ export default class Registration extends Component {
                       <input
                         className={"input-r"}
                         type="number"
-                        placeholder="eg. 9841234567"
+                        placeholder="eg. 0165474210"
                         value={this.state.voterPhone}
                         onChange={this.updateVoterPhone}
                       />

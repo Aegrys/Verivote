@@ -8,28 +8,10 @@ const Footer = () => (
     <div className="footer">
       <div className="footer-container">
         <p>
-          View this project on{" "}
-          <a
-            className="profile"
-            href="https://github.com/arlbibek/dVoting"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-          .
+          FYP 1 Prototype
         </p>
         <p>
-          Made with <i className="fas fa-heartbeat" /> by{" "}
-          <a
-            className="profile"
-            href="https://arlbibek.github.io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Bibek Aryal
-          </a>
-          .
+          Blockchain Voting System
         </p>
       </div>
     </div>

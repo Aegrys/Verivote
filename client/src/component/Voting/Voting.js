@@ -228,7 +228,9 @@ export default class Voting extends Component {
                 <small>Total candidates: {this.state.candidates.length}</small>
                 {this.state.candidates.length < 1 ? (
                   <div className="container-item attention">
-                    <center>Not one to vote for.</center>
+                    <center>No one to vote for. 
+                      <br></br>
+                      Please contact your organizer.</center>
                   </div>
                 ) : (
                   <>
@@ -237,7 +239,7 @@ export default class Voting extends Component {
                       className="container-item"
                       style={{ border: "1px solid black" }}
                     >
-                      <center>That is all.</center>
+                      <center><b>IMPORTANT!</b> YOU CAN ONLY VOTE ONCE!.</center>
                     </div>
                   </>
                 )}

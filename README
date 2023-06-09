@@ -1,0 +1,18 @@
+FYP 1 PROTOTYPE
+Muammar Ravi Al Ghozi Masdar
+1927535
+
+(Mandatory)
+npm install -g truffle
+
+(Optional)
+npm install -g ganache-cli --> Either use this, or use Ganache UI
+
+(ON VeriVote Directory)
+truffle migrate (to deploy smart contract)
+truffle migrate --reset (to re-deploy smart contract)
+
+(Start System)
+cd client
+npm install (on first run)
+npm start
