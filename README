@@ -2,6 +2,11 @@ FYP 1 PROTOTYPE
 Muammar Ravi Al Ghozi Masdar
 1927535
 
+(Dependencies)
+NodeJS
+Metamask
+Ganache GUI (Optional)
+
 (Mandatory)
 npm install -g truffle
 
